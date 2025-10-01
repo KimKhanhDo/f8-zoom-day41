@@ -1,19 +1,15 @@
 # Redux Advanced: Axios, ENV & Redux Architecture
 
-# Yêu cầu chung
+-   Bài 1: Setup Axios với Environment Variables
+-   Bài 2: E-commerce App với Redux Architecture Pattern
+-   Redux Advanced: Axios, ENV & Redux Architecture
 
-# Bài 1: Setup Axios với Environment Variables
+### Yêu cầu chung
 
-# Bài 2: E-commerce App với Redux Architecture Pattern
-
-# Redux Advanced: Axios, ENV & Redux Architecture
-
-# Yêu cầu chung
-
-Tạo repo f8-zoom-day41 sử dụng Vite để tạo dự án React với template JavaScript + SWC  
-Deploy bài tập trên Github Pages sử dụng gh-pages  
-Giao diện đơn giản nhưng professional (tự làm CSS)  
-Mục tiêu chính: Master Redux architecture patterns, Axios integration, và environment variables
+-   Tạo repo f8-zoom-day41 sử dụng Vite để tạo dự án React với template JavaScript + SWC
+-   Deploy bài tập trên Github Pages sử dụng gh-pages
+-   Giao diện đơn giản nhưng professional (tự làm CSS)
+-   Mục tiêu chính: Master Redux architecture patterns, Axios integration, và environment variables
 
 # Bài 1: Setup Axios với Environment Variables
 
