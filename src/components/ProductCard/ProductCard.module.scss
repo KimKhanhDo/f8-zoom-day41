@@ -1,0 +1,165 @@
+.card {
+    min-height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;
+    color: #0f1115;
+    border: 1px solid #e8eaee;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px #11182722;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 44px #11182722;
+    }
+}
+
+.thumbWrap {
+    position: relative;
+    left: 0;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 0.8rem;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #111827;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.body {
+    padding: 0 20px 26px;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.35;
+    margin: 0 0 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.meta {
+    margin: 0 0 10px;
+    color: #3a3f4b;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dot {
+    opacity: 0.55;
+}
+
+.brand {
+    text-transform: capitalize;
+}
+
+.category {
+    text-transform: lowercase;
+}
+
+.priceRow {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.priceAfter {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #404c07;
+}
+
+.priceBefore {
+    color: #3a3f4b;
+    opacity: 0.5;
+    text-decoration: line-through;
+    font-size: 0.95rem;
+}
+
+.bottomRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 1px solid #e8eaee;
+    background: #f5f6f7;
+    font-weight: 800;
+    color: #0f1115;
+}
+
+.star {
+    color: #f59e0b;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btnOutline,
+.btnPrimary {
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btnOutline {
+    background: #111827;
+    color: #ffffff;
+    border: 1px solid #111827;
+    transition: background 0.2s ease, transform 0.08s ease, opacity 0.2s ease;
+
+    &:hover {
+        opacity: 0.95;
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+}
+
+.btnPrimary {
+    background: #d7ee58;
+    color: #0d0f14;
+    border: 1px solid #d7ee58;
+    box-shadow: 0 6px 16px #11182722;
+    transition: transform 0.08s ease, filter 0.2s ease;
+
+    &:hover {
+        filter: brightness(0.98);
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+}

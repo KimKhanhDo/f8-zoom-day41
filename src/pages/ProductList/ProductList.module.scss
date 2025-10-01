@@ -1,0 +1,46 @@
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 24px 60px;
+    color: #0f1115;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0f1115;
+    letter-spacing: 0.2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 18px;
+}
+
+.grid > * {
+    grid-column: span 12;
+}
+
+@media (min-width: 520px) {
+    .grid > * {
+        grid-column: span 6;
+    }
+}
+@media (min-width: 820px) {
+    .grid > * {
+        grid-column: span 4;
+    }
+}
+@media (min-width: 1120px) {
+    .grid > * {
+        grid-column: span 3;
+    }
+}
